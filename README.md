@@ -18,7 +18,15 @@ To run application, follow these steps:
 2. Navigate to the project's root directory in your terminal or command prompt.
 3. Run the following command to install the required dependencies
 `npm i`
-4. Start the application by running the following command
+4. Run the followings commando on a different terminal 
+  `mysql -u YourUser -p`
+  `YourPassword`
+  
+  `SOURCE schema.sql`
+  `SOURCE seeds.sql`
+  `quit`
+5. Open the server.js file and write your mySQL user and password on lines 12 and 13, respectively. 
+6. Return to the first Terminal where you install dependencies and start the application by running the following command
 `node server.js`
 
 ## Usage
@@ -38,3 +46,5 @@ Select the appropriate option and follow the prompts to perform the desired acti
 
 ## Walkthrough Video
 Please refer to the following video link for a walkthrough demonstration of the application's functionality: Walkthrough Video
+[Employee Tracker.webm](https://github.com/JessFarron/employee-tracker/assets/126412050/3aa31916-9ead-4e83-b449-ecb91662a821)
+
